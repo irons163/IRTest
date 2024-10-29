@@ -7,10 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1AA678A2A6E5BA60069DD7F /* RegularExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA67892A6E5BA60069DD7F /* RegularExpression.swift */; };
 		D1E7519B2A615E67000333C0 /* IRTest.docc in Sources */ = {isa = PBXBuildFile; fileRef = D1E7519A2A615E67000333C0 /* IRTest.docc */; };
 		D1E751A12A615E67000333C0 /* IRTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E751962A615E67000333C0 /* IRTest.framework */; };
 		D1E751A62A615E67000333C0 /* IRTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751A52A615E67000333C0 /* IRTestTests.swift */; };
 		D1E751A72A615E67000333C0 /* IRTest.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E751992A615E67000333C0 /* IRTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1E751B22A65860F000333C0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751B12A65860F000333C0 /* Person.swift */; };
+		D1E751B42A658674000333C0 /* IRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751B32A658674000333C0 /* IRUITests.swift */; };
+		D1E751B62A658699000333C0 /* IRExampleGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751B52A658699000333C0 /* IRExampleGroupTests.swift */; };
+		D1E751B82A658725000333C0 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751B72A658725000333C0 /* Example.swift */; };
+		D1E751BA2A658734000333C0 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751B92A658734000333C0 /* ExampleGroup.swift */; };
+		D1E751BE2A67EF11000333C0 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751BD2A67EF11000333C0 /* Expectation.swift */; };
+		D1E751C02A67EF40000333C0 /* Actual.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751BF2A67EF40000333C0 /* Actual.swift */; };
+		D1E751C22A67EF64000333C0 /* Matcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751C12A67EF64000333C0 /* Matcher.swift */; };
+		D1E751C42A680E81000333C0 /* Poet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751C32A680E81000333C0 /* Poet.swift */; };
+		D1E751C62A680F8D000333C0 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751C52A680F8D000333C0 /* Equal.swift */; };
+		D1E751C82A682EE6000333C0 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751C72A682EE6000333C0 /* Contain.swift */; };
+		D1E751CA2A68BBCD000333C0 /* AsynchronousExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751C92A68BBCD000333C0 /* AsynchronousExpectation.swift */; };
+		D1E751CC2A68C079000333C0 /* BeTrue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E751CB2A68C079000333C0 /* BeTrue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +38,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1AA67892A6E5BA60069DD7F /* RegularExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpression.swift; sourceTree = "<group>"; };
 		D1E751962A615E67000333C0 /* IRTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IRTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E751992A615E67000333C0 /* IRTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTest.h; sourceTree = "<group>"; };
 		D1E7519A2A615E67000333C0 /* IRTest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = IRTest.docc; sourceTree = "<group>"; };
 		D1E751A02A615E67000333C0 /* IRTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E751A52A615E67000333C0 /* IRTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRTestTests.swift; sourceTree = "<group>"; };
+		D1E751B12A65860F000333C0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D1E751B32A658674000333C0 /* IRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRUITests.swift; sourceTree = "<group>"; };
+		D1E751B52A658699000333C0 /* IRExampleGroupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRExampleGroupTests.swift; sourceTree = "<group>"; };
+		D1E751B72A658725000333C0 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		D1E751B92A658734000333C0 /* ExampleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleGroup.swift; sourceTree = "<group>"; };
+		D1E751BD2A67EF11000333C0 /* Expectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
+		D1E751BF2A67EF40000333C0 /* Actual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actual.swift; sourceTree = "<group>"; };
+		D1E751C12A67EF64000333C0 /* Matcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matcher.swift; sourceTree = "<group>"; };
+		D1E751C32A680E81000333C0 /* Poet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poet.swift; sourceTree = "<group>"; };
+		D1E751C52A680F8D000333C0 /* Equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equal.swift; sourceTree = "<group>"; };
+		D1E751C72A682EE6000333C0 /* Contain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contain.swift; sourceTree = "<group>"; };
+		D1E751C92A68BBCD000333C0 /* AsynchronousExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousExpectation.swift; sourceTree = "<group>"; };
+		D1E751CB2A68C079000333C0 /* BeTrue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeTrue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +109,46 @@
 			isa = PBXGroup;
 			children = (
 				D1E751A52A615E67000333C0 /* IRTestTests.swift */,
+				D1E751B32A658674000333C0 /* IRUITests.swift */,
+				D1E751B52A658699000333C0 /* IRExampleGroupTests.swift */,
+				D1E751B72A658725000333C0 /* Example.swift */,
+				D1E751B92A658734000333C0 /* ExampleGroup.swift */,
+				D1E751BB2A67EE89000333C0 /* Expectation */,
+				D1E751B02A658600000333C0 /* Data */,
 			);
 			path = IRTestTests;
+			sourceTree = "<group>";
+		};
+		D1E751B02A658600000333C0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D1E751B12A65860F000333C0 /* Person.swift */,
+				D1E751C32A680E81000333C0 /* Poet.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D1E751BB2A67EE89000333C0 /* Expectation */ = {
+			isa = PBXGroup;
+			children = (
+				D1E751BD2A67EF11000333C0 /* Expectation.swift */,
+				D1E751BF2A67EF40000333C0 /* Actual.swift */,
+				D1E751C92A68BBCD000333C0 /* AsynchronousExpectation.swift */,
+				D1E751BC2A67EEA4000333C0 /* Matcher */,
+			);
+			path = Expectation;
+			sourceTree = "<group>";
+		};
+		D1E751BC2A67EEA4000333C0 /* Matcher */ = {
+			isa = PBXGroup;
+			children = (
+				D1E751C12A67EF64000333C0 /* Matcher.swift */,
+				D1E751CB2A68C079000333C0 /* BeTrue.swift */,
+				D1E751C52A680F8D000333C0 /* Equal.swift */,
+				D1E751C72A682EE6000333C0 /* Contain.swift */,
+				D1AA67892A6E5BA60069DD7F /* RegularExpression.swift */,
+			);
+			path = Matcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +268,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E751C82A682EE6000333C0 /* Contain.swift in Sources */,
+				D1E751B22A65860F000333C0 /* Person.swift in Sources */,
+				D1E751C02A67EF40000333C0 /* Actual.swift in Sources */,
+				D1E751C62A680F8D000333C0 /* Equal.swift in Sources */,
 				D1E751A62A615E67000333C0 /* IRTestTests.swift in Sources */,
+				D1AA678A2A6E5BA60069DD7F /* RegularExpression.swift in Sources */,
+				D1E751B42A658674000333C0 /* IRUITests.swift in Sources */,
+				D1E751CC2A68C079000333C0 /* BeTrue.swift in Sources */,
+				D1E751CA2A68BBCD000333C0 /* AsynchronousExpectation.swift in Sources */,
+				D1E751B62A658699000333C0 /* IRExampleGroupTests.swift in Sources */,
+				D1E751C42A680E81000333C0 /* Poet.swift in Sources */,
+				D1E751BA2A658734000333C0 /* ExampleGroup.swift in Sources */,
+				D1E751B82A658725000333C0 /* Example.swift in Sources */,
+				D1E751C22A67EF64000333C0 /* Matcher.swift in Sources */,
+				D1E751BE2A67EF11000333C0 /* Expectation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

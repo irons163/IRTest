@@ -3,7 +3,7 @@
 //  IRTest
 //
 //  Created by Phil Chang on 2023/7/14.
-//  Copyright © 2023 Yahoo. All rights reserved.
+//  Copyright © 2023 . All rights reserved.
 //        
 
 #import <Foundation/Foundation.h>
